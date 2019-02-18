@@ -54,11 +54,11 @@ input#volume::-webkit-slider-thumb{
     height:12px;
     width:12px;
 }
-#buttons{
+#audio-buttons{
     width:90%;
     display:block;
     margin:15px auto;
-    margin-left:12px;
+    margin-left:22px;
     overflow:auto;
 }
 button#play{
@@ -120,6 +120,9 @@ button#play{
      background: url("../images/progress.png") no-repeat;
      height:10px;
      display:inline-block;
+     position: absolute;
+     top:9px;
+     left:8px;
  }
  #duration{
      position:absolute;
